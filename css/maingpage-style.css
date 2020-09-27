@@ -1,1 +1,3 @@
-h1 {font-family: Arial, Helvetica, sans-serif;text-align: center; }
+body {background-image:url(../images/gradient-image.jpg);}
+h1 {font-family: Arial, Helvetica, sans-serif;text-align: center; color: azure;}
+h3 {font-family: Arial, Helvetica, sans-serif;text-align: inherit; color: black;font-size: 15.0;}
