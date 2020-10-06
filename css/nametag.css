@@ -1,0 +1,94 @@
+.box { 
+    width: 714px;
+    height: 495px;
+  border: 1px solid #333;
+  background-color: black;
+  padding: 8px 12px;
+}
+
+.nametag-box{
+    position: absolute;
+    width: 355px;
+    height: 79px;
+    color: white;
+    font-family: Righteous;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 60px;
+    
+    display: flex;
+    top: 95px;
+    left: 50px;
+    
+}
+
+#elipse-88{
+    position: absolute;
+    width: 102.42px;
+    height: 101.34px;
+}
+
+
+#elipse-86{
+    position: absolute;
+    top: 200px;
+    left: 70px
+}
+
+#circle-for-86{
+    position: absolute;
+    top: 240px;
+    left: 108px
+}
+
+#elipse-91{
+    position: absolute;
+    top: 305px;
+    left: 195px
+}
+
+
+#elipse-85{
+    position: absolute;
+    top: 20px;
+    left:470px
+}
+
+#cirlce-for-85{
+    position: absolute;
+    top: 40px;
+    left: 492px
+}
+
+#elipse-87{
+    position: absolute;
+    top: 345px;
+    left: 490px
+}
+
+#elipse-92{
+    position: absolute;
+    top: 345px;
+    left: 415px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
