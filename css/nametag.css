@@ -35,21 +35,21 @@
     position: absolute;
     top: 200px;
     left: 70px;
-    z-index:2;
+    z-index:1;
 }
 
 #circle-for-86{
     position: absolute;
     top: 240px;
     left: 108px;
-    z-index:1;
+    z-index:2;
 }
 
 #elipse-91{
     position: absolute;
     top: 305px;
     left: 195px;
-    z-index:3; 
+    z-index:0; 
 }
 
 
