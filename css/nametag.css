@@ -4,6 +4,7 @@
   border: 1px solid #333;
   background-color: black;
   padding: 8px 12px;
+  display: block;
 }
 
 .nametag-box{
@@ -33,19 +34,22 @@
 #elipse-86{
     position: absolute;
     top: 200px;
-    left: 70px
+    left: 70px;
+    z-index:2;
 }
 
 #circle-for-86{
     position: absolute;
     top: 240px;
-    left: 108px
+    left: 108px;
+    z-index:1;
 }
 
 #elipse-91{
     position: absolute;
     top: 305px;
-    left: 195px
+    left: 195px;
+    z-index:3; 
 }
 
 
