@@ -1,0 +1,35 @@
+body {
+font-family:'Cormorant Garamond';
+font-size: medium;
+text-align: left;
+display: block;
+line-break: normal;
+margin: 20px;
+line-height: 28px;
+background-image: url(../images/romeo-and-juliet-background.jpg); 
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-position: center;
+background-color: bisque;
+} 
+
+.act{
+    font-weight: 700; 
+    font-size: x-large;
+}
+
+.scene{
+    font-weight: 300; 
+    font-size: medium;
+}
+
+.play{
+    font-weight: 300; 
+    font-size: medium;
+}
+
+.names{
+    font-weight: 600; 
+    font-size: medium;
+}
+
