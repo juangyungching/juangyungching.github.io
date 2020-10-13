@@ -1,6 +1,20 @@
 @font-face {
     font-family: "Cormorant Garamond Regular";
-    src: url('../fonts') format('woff2'),
-        url('../font/ACaslonPro-Regular.woff') format('woff')
+    src: url('../fonts/CormorantGaramond-Regular.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Regular.woff') format('woff')
+
+}
+
+@font-face {
+    font-family: "Cormorant Garamond Italic";
+    src: url('../fonts/CormorantGaramond-Italic.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Italic.woff') format('woff2')
+
+}
+
+@font-face {
+    font-family: "Cormorant Garamond bold";
+    src: url('../fonts/CormorantGaramond-Bold.woff2') format('woff2'),
+        url('../fonts/CormorantGaramond-Bold.woff') format('woff')
 
 }

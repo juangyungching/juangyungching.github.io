@@ -1,5 +1,5 @@
 body {
-font-family:'Cormorant Garamond';
+font-family:'Cormorant Garamond Regular';
 font-size: medium;
 text-align: left;
 display: block;
@@ -14,22 +14,26 @@ background-color: bisque;
 } 
 
 .act{
-    font-weight: 700; 
+    font-weight: 1000; 
     font-size: x-large;
+    font-family:'Cormorant Garamond Regular';
 }
 
 .scene{
     font-weight: 300; 
     font-size: medium;
+    font-family:'Cormorant Garamond Italic';
 }
 
 .play{
     font-weight: 300; 
     font-size: medium;
+    font-family:'Cormorant Garamond Regular';
 }
 
 .names{
-    font-weight: 600; 
+    font-weight: 1000; 
     font-size: medium;
+    font-family:'Cormorant Garamond Rgular';
 }
 
