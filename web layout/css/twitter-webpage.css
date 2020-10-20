@@ -42,5 +42,49 @@ box-sizing: border-box;
     top: -259px;
     border-radius: 0px;
 
+}
 
+
+.Home{
+    position: relative;
+    font-family: Helvetica Bold;
+    top: 20px;
+    left: 20px;
+    width: 118px;
+    height: 21px;
+}
+
+.Explore{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.notification{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.messages{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.bookmark{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.lists{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.profile{
+    position: relative;
+    font-family: Helvetica Bold;
+}
+
+.more{
+    position: relative;
+    font-family: Helvetica Bold;
 }
