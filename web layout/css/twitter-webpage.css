@@ -1,0 +1,46 @@
+body{
+    position: relative;
+    background-color:15202B;
+}
+
+.grid-container{
+    color: white;
+    display: flex;
+    flex: 1,1,300px;
+    flex-direction: row;
+    column-gap: 2px;
+    justify-content: space-evenly;
+    
+
+}
+
+.grid-left{
+width: 286px;
+height: 738px;
+background: #15202B;
+border-right: 1px solid #38444D;
+box-sizing: border-box;
+
+}
+
+.grid-center{
+    background-color: 15202B;
+    height: 736px;
+    width: 596px;
+    left: 1341px;
+    top: -259px;
+    border-radius: 0.3px,38444D;
+
+
+}
+
+.grid-right{
+    background-color: 15202B;
+    height: 736px;
+    width: 398px;
+    left: 1937px;
+    top: -259px;
+    border-radius: 0px;
+
+
+}
