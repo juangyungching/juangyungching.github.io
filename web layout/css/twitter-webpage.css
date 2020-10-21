@@ -4,87 +4,119 @@ body{
 }
 
 .grid-container{
+    column-count: 3;
     color: white;
-    display: flex;
-    flex: 1,1,300px;
     flex-direction: row;
-    column-gap: 2px;
-    justify-content: space-evenly;
-    
+    justify-content: space-evenly;  
 
 }
 
 .grid-left{
-width: 286px;
-height: 738px;
-background: #15202B;
-border-right: 1px solid #38444D;
-box-sizing: border-box;
-
+    position: absolute;
+    width: 286px;
+    height: 738px;
+    background: #15202B;
+    border-right: 1px solid #38444D;
+    box-sizing: border-box;
 }
 
 .grid-center{
+    position: absolute;
     background-color: 15202B;
-    height: 736px;
+    height: 738px;
     width: 596px;
     left: 1341px;
-    top: -259px;
+    top: -261px;
     border-radius: 0.3px,38444D;
 
 
 }
 
 .grid-right{
+    position: absolute;
     background-color: 15202B;
-    height: 736px;
+    height: 738px;
     width: 398px;
-    left: 1937px;
-    top: -259px;
+    right: 0px;
+    top: -261px;
     border-radius: 0px;
-
+    
 }
 
+.icon-names{
+    position: fixed;
+}
 
 .Home{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
-    top: 20px;
-    left: 20px;
-    width: 118px;
-    height: 21px;
+    top: 68px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .Explore{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 112px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .notification{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 156px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .messages{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 200px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .bookmark{
-    position: relative;
+    position:fixed;
     font-family: Helvetica Bold;
+    top: 244px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .lists{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 288px;
+    left: 73px;
+    font-size: 19.5px;
 }
 
 .profile{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 332px;
+    left: 73px;
+    font-size: 19.5px;
+    
 }
 
 .more{
-    position: relative;
+    position: fixed;
     font-family: Helvetica Bold;
+    top: 376px;
+    left: 73px;
+    font-size: 19.5px
+
+
+}
+
+img{
+    position: fixed;
+    justify-self: start;
+    margin-top: 30px;
+    
 }
