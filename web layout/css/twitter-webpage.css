@@ -236,4 +236,43 @@ body{
     border: 1px solid #38444D;
 }
 
+.h5{
+    font-size: 19.5px;
+    font-family: Helvetica Bold;
+
+}
+
+/* Mobile */
+
+@media only screen
+    and (min-device-width: 414px) 
+    and (max-width: 736px)
+    and (-webkit-min-device-pixel-ratio: 3)
+    and (orientation: portrait){
+
+    .grid-left{
+        display: flex;
+        height: 12%;
+        width: 100%;
+        margin-bottom: 0%;
+        flex-basis: 100%;
+    }
+
+    .grid-center{
+        display: 100%;
+        flex-basis: 100%;
+    }
+    .grid-right{
+        display: none
+    }
+
+    .h5{
+        display: none;
+    }
+    
+    h5{
+        display: none;
+    }
+}
+
 
