@@ -53,6 +53,7 @@ body{
     font-size: 19.5px;
 }
 
+
 .Explore{
     position: fixed;
     font-family: Helvetica Bold;
@@ -202,7 +203,6 @@ body{
 .who-to-follow-panel{
     width: 80%;
     height: 35%;
-    display: flex;
     background: #1B2737;
     border-radius: 16px;
     margin-left: auto;
@@ -213,10 +213,9 @@ body{
 .line1{
     height: 0px;
     width: 100%;
-    margin-top: 16%;
+    top: 26%;
     margin-left: auto;
-    margin-right: auto;
-    top: -201px;    
+    margin-right: auto;  
     border-radius: 0px;
     align-items: center;
 
@@ -224,31 +223,39 @@ body{
 }
 
 .line2{
+   border: 1px solid #38444D;
+   margin-top: 48%;
+}
+
+.line3{
     height: 0px;
     width: 100%;
-    margin-top: 36%;
+    margin-top: 20%;
     margin-left: auto;
-    margin-right: auto;
-    top: -201px;    
+    margin-right: auto; 
     border-radius: 0px;
     align-items: center;
-
     border: 1px solid #38444D;
+
 }
+
+.line4{
+    border: 1px solid #38444D;
+    margin-top: 48%;
+ }
 
 .h5{
     font-size: 19.5px;
     font-family: Helvetica Bold;
+    margin-right: 70%;
 
 }
 
 /* Mobile */
 
 @media only screen
-    and (min-device-width: 414px) 
-    and (max-width: 736px)
-    and (-webkit-min-device-pixel-ratio: 3)
-    and (orientation: portrait){
+    and (max-width: 736px){
+        
 
     .grid-left{
         display: flex;
