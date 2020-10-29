@@ -259,7 +259,7 @@ body{
     and (max-width: 736px){
         
     .h5{
-        display: none;
+        display: inline, none;
     }
 
     .grid-container{
