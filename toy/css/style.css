@@ -1,0 +1,33 @@
+#image-container{
+    display: inline-block;
+    position: ;
+
+}
+
+.graphic{
+    position: relative;
+    display: inline;
+}
+
+.row-1{
+    display: block;
+
+}
+
+#rabbit{
+    position: relative;
+    width: 8%;
+    height: auto;
+    top: 5%;
+    left: 5%;
+
+}
+
+#carrot{
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 5%;
+
+}
+
