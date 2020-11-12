@@ -1,35 +1,43 @@
-#image-container{
-    display: inline;
+body{
+    background-color: #024b30;
 
 }
 
-.graphic{
-    position: relative;
-    display: inline;
+#grid-container{
+    display: grid;
+    border: 0px;
+    grid-template-columns: auto auto auto auto auto auto auto auto auto auto;
+    column-count: 10;
+    grid-gap: 0px;
 }
 
-.row-1{
-    display: block;
-
+.grid-item{
+    padding: 1px;
+    display: block
 }
+
 
 #rabbit{
     position: relative;
-    width: 8%;
+    width: 90%;
     height: auto;
-    top: 5%;
-    left: 8%;
     margin-left: 0%;
     z-index: 0;
+}
 
+.carrot-container{
+    position: absolute;
+    padding: 1px;
+    width: 10%;
+    height: 10%;
+    left: 0px
 }
 
 #carrot{
     position: relative;
-    width: 6%;
+    max-width: 80%;
     height: auto;
-    top: 3%;
     z-index: -1;
-
+    left: 0%;
 }
 
