@@ -25,6 +25,14 @@ body{
     z-index: 0;
 }
 
+#carrot{
+    position: relative;
+    max-width: 80%;
+    height: auto;
+    z-index: -1;
+    left: 0%;
+}
+
 .carrot-container{
     position: absolute;
     padding: 1px;
@@ -33,11 +41,21 @@ body{
     left: 0px
 }
 
-#carrot{
-    position: relative;
-    max-width: 80%;
-    height: auto;
-    z-index: -1;
-    left: 0%;
+.carrot-container:nth-child(1){
+    position: absolute;
+    padding: 1px;
+    width: 10%;
+    height: 10%;
+    left: 10px;
 }
+
+
+.carrot-container:nth-child(2){
+    position: absolute;
+    padding: 1px;
+    width: 10%;
+    height: 10%;
+    left: 40px;
+}
+
 
