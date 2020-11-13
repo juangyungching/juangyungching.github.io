@@ -17,21 +17,34 @@ body{
     display: block
 }
 
+.grid-item.show-rabbit .rabbit{
+    opacity: 1;
+}
 
-#rabbit{
+.grid-item.show-rabbit .carrot{
+    opacity: 0;
+}
+
+.grid-item.hide-rabbit .rabbit{
+    opacity: 0;
+}
+
+
+
+.rabbit{
     position: relative;
     width: 70%;
     height: auto;
     z-index: 0;
-    opacity: 100%;
+    opacity: 0;
 }
 
-#carrot{
+.carrot{
     position: absolute;
     max-width: 80%;
     height: auto;
     z-index: -1;
     left: 0%;
-    opacity: 100%;
+    opacity: 1;
 }
 
