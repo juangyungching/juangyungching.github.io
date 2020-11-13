@@ -1,5 +1,6 @@
-myElement.text("Cute toy heehee");
+function addCarrot() {
+    document.body.carrot.style.opacity = "100%";
 
-window.addEventListener("", function() {
 }
 
+document.getElementById("carrot").addEventListener("keyright")

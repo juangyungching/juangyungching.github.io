@@ -12,6 +12,7 @@ body{
 }
 
 .grid-item{
+    position: relative;
     padding: 1px;
     display: block
 }
@@ -19,43 +20,18 @@ body{
 
 #rabbit{
     position: relative;
-    width: 90%;
+    width: 70%;
     height: auto;
-    margin-left: 0%;
     z-index: 0;
+    opacity: 100%;
 }
 
 #carrot{
-    position: relative;
+    position: absolute;
     max-width: 80%;
     height: auto;
     z-index: -1;
     left: 0%;
+    opacity: 100%;
 }
-
-.carrot-container{
-    position: absolute;
-    padding: 1px;
-    width: 10%;
-    height: 10%;
-    left: 0px
-}
-
-.carrot-container:nth-child(1){
-    position: absolute;
-    padding: 1px;
-    width: 10%;
-    height: 10%;
-    left: 10px;
-}
-
-
-.carrot-container:nth-child(2){
-    position: absolute;
-    padding: 1px;
-    width: 10%;
-    height: 10%;
-    left: 40px;
-}
-
 
