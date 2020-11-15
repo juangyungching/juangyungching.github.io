@@ -1,43 +1,71 @@
 window.addEventListener('load', function() {    
-    var currentItemNumber = 0;
+    var currentItemNumber = 0; 
     var allItems = document.querySelectorAll('.grid-item');
 
     document.addEventListener('keydown', onKeyPress);
+    
+    /*showCarrot(allItems[currentItemNumber + 1]);
+    showCarrot(allItems[currentItemNumber + 2]);
+    showCarrot(allItems[currentItemNumber + 3]); */
+    
+    
+    
     // function addCarrot() {
     //     document.body.carrot.style.opacity = "100%";
     
     // }
     
+    $(".show-rabbit").click(function(e){ // Some use this method too
+        e.preventDefault();
+    });
     // document.getElementById("carrot").addEventListener("keyright")
 
 
     //every time the key is pressed
-    function onKeyPress(e) {
-        //use the "e" that is passed into this function
+    function onKeyPress(e) { 
+        //use the "e" that is passed into this function -- (e) event handling function, recieves an object 
         //to check which key is being pressed
         //and only run the next lines of code if the right key is being pressed
 
-        var previousItemNumber = currentItemNumber;
-        
-        currentItemNumber = currentItemNumber + 1;
+        if (e.key == " "){ //if key press is space, then the function is triggered
+            
+            var previousItemNumber = currentItemNumber;
+            
+            currentItemNumber = currentItemNumber + 1;
 
-        var nextElement = allItems[currentItemNumber];
-        var previousElement = allItems[previousItemNumber];
+            var carrotItemNumber = currentItemNumber + 3;
 
-        hideRabbit(previousElement);
-        moveRabbit(nextElement);
+            //var hideCarrotElement = previousElement
+            var nextElement = allItems[currentItemNumber];
+            var previousElement = allItems[previousItemNumber];
+            var carrotElement = allItems[carrotItemNumber];
+
+
+            hideRabbit(previousElement);
+            moveRabbit(nextElement);
+            moveCarrot(carrotElement);
+            /*hideCarrot(hideCarrotElement);*/
+        }
+
     }
 
-    //every time arrow key is pressed
-    //we call this function
-    //but we pass it a new element
-    function moveRabbit(element) {
+    function moveRabbit(element) { 
         element.classList.add('show-rabbit');
+        element.classList.add('hide-carrot');
     }
 
     function hideRabbit(element) {
         element.classList.add('hide-rabbit');
+        //document.getElementById('grid-item. hide-rabbit. carrot').style.opacity="0";
     }
 
+    function moveCarrot(element) {
+        element.classList.add('show-carrot');
+    }
+
+    /* function hideCarrot(element) {
+        var element = document.getElementById('grid-item show-rabbit .carrot');
+            element.style.opacity = "0";
+    } */
 });
 
