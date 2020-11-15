@@ -29,6 +29,17 @@ body{
     opacity: 0;
 }
 
+.grid-item.hide-rabbit .carrot{
+    opacity: 0;
+}
+
+.grid-item.show-carrot .carrot{
+    opacity: 1;
+}
+
+.grid-item.hide-carrot .carrot{
+    opacity: 0;
+}
 
 
 .rabbit{
@@ -45,6 +56,6 @@ body{
     height: auto;
     z-index: -1;
     left: 0%;
-    opacity: 1;
+    opacity: 0;
 }
 
