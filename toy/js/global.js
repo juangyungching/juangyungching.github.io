@@ -6,20 +6,7 @@ window.addEventListener('load', function() {
     
     /*showCarrot(allItems[currentItemNumber + 1]);
     showCarrot(allItems[currentItemNumber + 2]);
-    showCarrot(allItems[currentItemNumber + 3]); */
-    
-    
-    
-    // function addCarrot() {
-    //     document.body.carrot.style.opacity = "100%";
-    
-    // }
-    
-    $(".show-rabbit").click(function(e){ // Some use this method too
-        e.preventDefault();
-    });
-    // document.getElementById("carrot").addEventListener("keyright")
-
+    showCarrot(allItems[currentItemNumber + 3]); */ 
 
     //every time the key is pressed
     function onKeyPress(e) { 
