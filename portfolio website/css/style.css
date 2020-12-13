@@ -1,0 +1,253 @@
+/*.intro-page{
+    height: 100%;
+    width: 100%;
+    background-color: #EFE2BA;
+}
+
+.text-box{
+    position: relative;
+    left: 2%;
+    top: 73%;
+}
+
+h1{
+    color: #4056A1;
+    font-size: 26px;
+    font-family: 'Montaga Regular';
+    font-weight: lighter;
+    line-height: 32.03px;
+    letter-spacing: 1.5%;
+}
+
+.red-words{
+    color: #FE3C20;
+}*/
+
+body{
+    margin: 0%;
+}
+
+.main-page{
+    width: 100%;
+    height: 100%;
+    background-color: #4056A1;
+
+}
+
+.box-container{
+    position: relative;
+}
+
+.box-1{
+    position: absolute;
+    width: 310px;
+    height: 310px;
+    right: 20px;
+    top: 20px;
+    
+    background: #FFFFFF;
+}
+
+.box-2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 350px;
+    top: 20px;
+    background-color: #C5CBE3;
+}
+
+.box-3{
+    position: absolute;
+    width: 200px;
+    height: 90px;
+    right: 350px;
+    top: 240px;
+    
+    background: #EFE2BA;
+}
+
+.box-4{
+    position: absolute;
+    width: 130px;
+    height: 200px;
+    right: 570px;
+    top: 190px;
+    
+    background: #FFFFFF;
+}
+
+.box-5{
+    position: absolute;
+    width: 140px;
+    height: 260px;
+    right: 20px;
+    top: 350px;
+    
+    background: #EFE2BA;
+}
+
+.box-6{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    right: 180px;
+    top: 350px;
+    background-color: #C5CBE3;
+}
+
+.box-7{
+    position: absolute;
+    width: 200px;
+    height: 100px;
+    right: 180px;
+    top: 570px;
+    background-color: #FFFFFF;
+}
+
+.box-8{
+    position: absolute;
+    width: 150px;
+    height: 300px;
+    right: 400px;
+    top: 350px;
+    
+    background: #FFFFFF;
+}
+
+.box-9{
+    position: absolute;
+    width: 190px;
+    height: 120px;
+    right: 570px;
+    top: 410px;
+    
+    background:  #EFE2BA;
+}
+
+.color-button{
+    position: absolute;
+    width: 140px;
+    height: 40px;
+    right: 20px;
+    top: 630px;
+    background-color: #FAD0D3;
+    border-radius: 26px;
+    text-align: center;
+    
+}
+
+h2{
+    color: #FE3C20;
+    font-family: 'Montaga Regular';
+    font-size: 18px;
+
+}
+
+img[src="images/pink-logo-06.png"]{
+    position: absolute;
+    width: 8%;
+    top: 20px;
+    left: 20px;
+}
+
+.menu-clicks{
+    position: absolute;
+    list-style-type: none;
+    top: 220px;
+    left: 20px;
+}
+
+.dropbtn{
+    color: #FAD0D3;
+    font-family: 'Poppins Semibold';
+    font-size: 16px;
+    padding: none;
+    border: none;
+    background-color:transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Poppins Regular';
+    background-color: #f1f1f1;
+    width: 200px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #FAD0D3;
+
+}
+
+.dropdown:hover .dropdown-content{
+    background-color:#FAD0D3; 
+    opacity: 90%;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #FAD0D3; 
+    color: #4056A1; 
+    border-radius: 16px ;
+    width: 200px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.illustration{
+    position: relative;
+    top: 0px ;
+    left: 10px;
+
+}
+
+.web-design{
+    position: relative;
+    top: 20px ;
+    left: 10px;
+}
+
+.typography{
+    position: relative;
+    top: 40px ;
+    left: 10px;
+    
+}
+
+.identity-design{
+    position: relative;
+    top: 60px ;
+    left: 10px;
+    
+}
+
+.more{
+    position: relative;
+    top: 80px ;
+    left: 10px;
+    
+}
+
+.resume{
+    position: relative;
+    top: 240px ;
+    left: 10px;
+    
+}
+
+.contacts{
+    position: relative;
+    top: 250px ;
+    left: 10px;
+    
+}

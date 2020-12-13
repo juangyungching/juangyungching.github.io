@@ -1,0 +1,26 @@
+@font-face{
+   font-family: "Montaga Regular"; 
+   src: url('../fonts/Montaga-Regular.woff2') format('woff2'),
+    url('../fonts/Montaga-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Poppins Regular"; 
+    src: url('../fonts/Poppins-Regular.woff2') format('woff2'),
+     url('../fonts/Poppins-Regular.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Poppins Medium"; 
+    src: url('../fonts/Poppins-Medium.woff2') format('woff2'),
+     url('../fonts/Poppins-Medium.woff') format('woff');
+}
+
+@font-face{
+    font-family: "Poppins Semibold"; 
+    src: url('../fonts/Poppins-SemiBold.woff2') format('woff2'),
+     url('../fonts/Poppins-SemiBold.woff') format('woff');
+}
+
+
+
