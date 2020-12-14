@@ -45,7 +45,10 @@ body{
     right: 20px;
     top: 20px;
     
-    background: #FFFFFF;
+    
+    background-image: url(../images/combination_project3\ copy.jpg);
+    background-size: 150%;
+    
 }
 
 .box-2{
