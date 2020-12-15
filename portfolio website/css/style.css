@@ -220,6 +220,8 @@ img[src="images/pink-logo-06.png"]{
     color: #4056A1; 
     border-radius: 16px ;
     width: 200px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
     
 }
 
@@ -404,6 +406,10 @@ a{
 
     }
 
+    img[src="images/pink-logo-06.png"]{
+        position: fixed;
+    }
+
     .box-9{
         width: 100%;
         height: 44%;
@@ -412,5 +418,32 @@ a{
         background-size: 150%;
     }
 
+    .info-container{
+        position: fixed;
+        width: 100%;
+        height: 4%;
+        bottom: 0%;
+        background-color: #FE3C20;
+
+    }
+
+    .resume{
+        position: fixed;
+        top: 96.5%;
+        left: 15%;
+    }
+
+    .contacts{
+        position: fixed;
+        top: 96.5%;
+        left: 65%;
+    }
+
+
+    .info-container a{
+        color: #FAD0D3;
+
+    }
+        
 
 }
