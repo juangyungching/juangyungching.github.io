@@ -1,0 +1,164 @@
+.title-name{
+    top: 5%;
+    left: 10%;
+    font-family: 'Montaga Regular';
+    font-size: 100pt;
+    
+}
+
+.content-container{
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    right: 0%;
+    top: 0%;
+    background-color: white;
+}
+
+.prj-date{
+    font-family: 'Montaga Regular';
+    font-size: 40pt;
+}
+
+img[src=".../images/1950icon.jpg"]{
+    position: absolute;
+    width: 40%;
+    top: 20%;
+    right: 0%;
+
+}
+
+img[src="../images/a086 project1_15rgb.jpg"]{
+    position: absolute;
+    width: 20%;
+    top: 20%;
+    left: 60%;
+
+}
+
+
+
+
+
+.menu-container-column{
+    position: fixed;
+    height: 100%;
+    width: 20%;
+    top: 0px;
+    left: 0px;
+    background-color: #4056A1;
+}
+
+.menu-clicks{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 220px;
+    left: 20px;
+    background-color: transparent;
+    list-style-type: none;
+
+}
+
+img[src="../images/pink-logo-06.png"]{
+    position: absolute;
+    width: 40%;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+}
+
+.dropbtn{
+    color: #FAD0D3;
+    font-family: 'Poppins Semibold';
+    font-size: 16px;
+    padding: none;
+    border: none;
+    background-color:transparent;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-family: 'Poppins Regular';
+    background-color: #f1f1f1;
+    width: 200px;
+    z-index: 1;
+    text-decoration: none;
+}
+
+.dropdown-content a:hover {
+    background-color: #FAD0D3;
+}
+
+.dropdown:hover .dropdown-content{
+    background-color:#FAD0D3; 
+    opacity: 90%;
+    border-radius: 7px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+    display: block;
+
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #FAD0D3; 
+    color: #4056A1; 
+    border-radius: 16px ;
+    width: 200px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.illustration{
+    position: relative;
+    top: 0px ;
+    left: 10px;
+
+}
+
+.web-design{
+    position: relative;
+    top: 20px ;
+    left: 10px;
+}
+
+.typography{
+    position: relative;
+    top: 40px ;
+    left: 10px;
+    
+}
+
+.identity-design{
+    position: relative;
+    top: 60px ;
+    left: 10px;
+    
+}
+
+.more{
+    position: relative;
+    top: 80px ;
+    left: 10px;
+    
+}
+
+.resume{
+    position: relative;
+    top: 240px ;
+    left: 10px;
+    
+}
+
+.contacts{
+    position: relative;
+    top: 250px ;
+    left: 10px;
+    
+}
