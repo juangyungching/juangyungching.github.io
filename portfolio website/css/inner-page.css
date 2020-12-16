@@ -1,14 +1,14 @@
 .title-name{
     top: 5%;
-    left: 10%;
+    left: 20%;
     font-family: 'Montaga Regular';
-    font-size: 100pt;
+    font-size: 50pt;
     
 }
 
 .content-container{
     position: absolute;
-    width: 80%;
+    width: 75%;
     height: 100%;
     right: 0%;
     top: 0%;
@@ -20,22 +20,26 @@
     font-size: 40pt;
 }
 
-img[src=".../images/1950icon.jpg"]{
+img[src="../images/1950icon.jpg"]{
     position: absolute;
-    width: 40%;
-    top: 20%;
-    right: 0%;
-
+    width: 30%;
+    top: 65%;
+    left: 5%;
 }
 
 img[src="../images/a086 project1_15rgb.jpg"]{
     position: absolute;
-    width: 20%;
-    top: 20%;
-    left: 60%;
-
+    width: 50%;
+    top: 30%;
+    left: 45%;
 }
 
+img[src="../images/toy.jpg"]{
+    position: absolute;
+    width: 40%;
+    top: 30%;
+    left: 45%;
+}
 
 
 
